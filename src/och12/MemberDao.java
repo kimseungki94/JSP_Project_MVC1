@@ -77,6 +77,7 @@ public class MemberDao {
 			rs = pstmt.executeQuery();
 			while (rs.next()) {
 				Member board = new Member();
+				//Äõ¸®¹®¿¡¼­ ¹ÞÀº°Å board °´Ã¼¿¡ »ðÀÔ
 				board.setId(rs.getString("id"));
 				//board.setId(rs.getString(1));
 				board.setPasswd(rs.getString("passwd"));
