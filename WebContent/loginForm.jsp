@@ -17,11 +17,11 @@
 <table border="1">
 	<tr><td>아이디</td><td><input type="text" name="id" required="required"></td></tr>
 	<tr><td>암호</td><td><input type="password" name="passwd" required="required"></td></tr>
-	<tr><td></td><td><input type="submit" value="확인"></td>
-	<td><input type="submit" value="확인"></td></tr>
+	<tr><td><input type="submit" value="로그인"></td>
+	<td><input type="button" value="회원가입" onclick="location.href='joinForm.jsp'"></td></tr>
 </table>
 </form><p>
 
-<input type="button" value="회원가입" onclick="location.href='joinForm.jsp'">
+
 </body>
 </html>
